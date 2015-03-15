@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0411D9F91A52327600E26758 /* IronDagger_SK.png in Resources */ = {isa = PBXBuildFile; fileRef = 0411D9F81A52327600E26758 /* IronDagger_SK.png */; };
+		0411D9FD1A52593500E26758 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411D9FC1A52593500E26758 /* GameOverScene.swift */; };
+		0411D9FF1A52768000E26758 /* bubblepop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0411D9FE1A52768000E26758 /* bubblepop.mp3 */; };
+		0411DA011A52771900E26758 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0411DA001A52771900E26758 /* AVFoundation.framework */; };
+		0411DA031A52800D00E26758 /* Background theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0411DA021A52800D00E26758 /* Background theme.mp3 */; };
+		048527B71AB60AF8006096C6 /* ok_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 048527B61AB60AF8006096C6 /* ok_button.png */; };
 		04C0BBB71A5123740070C9DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0BBB61A5123740070C9DA /* AppDelegate.swift */; };
-		04C0BBB91A5123750070C9DA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04C0BBB81A5123750070C9DA /* GameScene.sks */; };
 		04C0BBBB1A5123750070C9DA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0BBBA1A5123750070C9DA /* GameScene.swift */; };
 		04C0BBBD1A5123750070C9DA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0BBBC1A5123750070C9DA /* GameViewController.swift */; };
 		04C0BBC01A5123750070C9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0BBBE1A5123750070C9DA /* Main.storyboard */; };
 		04C0BBC21A5123760070C9DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0BBC11A5123760070C9DA /* Images.xcassets */; };
 		04C0BBC51A5123760070C9DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0BBC31A5123760070C9DA /* LaunchScreen.xib */; };
 		04C0BBD11A5123760070C9DA /* BouncingBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0BBD01A5123760070C9DA /* BouncingBallTests.swift */; };
+		04C0BBDB1A512FE60070C9DA /* Pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C0BBDA1A512FE60070C9DA /* Pokeball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0411D9F81A52327600E26758 /* IronDagger_SK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IronDagger_SK.png; sourceTree = "<group>"; };
+		0411D9FC1A52593500E26758 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		0411D9FE1A52768000E26758 /* bubblepop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubblepop.mp3; sourceTree = "<group>"; };
+		0411DA001A52771900E26758 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0411DA021A52800D00E26758 /* Background theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background theme.mp3"; sourceTree = "<group>"; };
+		048527B61AB60AF8006096C6 /* ok_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok_button.png; sourceTree = "<group>"; };
 		04C0BBB11A5123740070C9DA /* BouncingBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncingBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0BBB51A5123740070C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C0BBB61A5123740070C9DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04C0BBB81A5123750070C9DA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		04C0BBBA1A5123750070C9DA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		04C0BBBC1A5123750070C9DA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		04C0BBBF1A5123750070C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +51,7 @@
 		04C0BBCA1A5123760070C9DA /* BouncingBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncingBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0BBCF1A5123760070C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C0BBD01A5123760070C9DA /* BouncingBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingBallTests.swift; sourceTree = "<group>"; };
+		04C0BBDA1A512FE60070C9DA /* Pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0411DA011A52771900E26758 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048527B81AB60AFD006096C6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				048527B61AB60AF8006096C6 /* ok_button.png */,
+				0411DA021A52800D00E26758 /* Background theme.mp3 */,
+				0411D9FE1A52768000E26758 /* bubblepop.mp3 */,
+				0411D9F81A52327600E26758 /* IronDagger_SK.png */,
+				04C0BBDA1A512FE60070C9DA /* Pokeball.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		04C0BBA81A5123740070C9DA = {
 			isa = PBXGroup;
 			children = (
+				0411DA001A52771900E26758 /* AVFoundation.framework */,
 				04C0BBB31A5123740070C9DA /* BouncingBall */,
 				04C0BBCD1A5123760070C9DA /* BouncingBallTests */,
 				04C0BBB21A5123740070C9DA /* Products */,
@@ -81,14 +107,15 @@
 		04C0BBB31A5123740070C9DA /* BouncingBall */ = {
 			isa = PBXGroup;
 			children = (
+				048527B81AB60AFD006096C6 /* Assets */,
 				04C0BBB61A5123740070C9DA /* AppDelegate.swift */,
-				04C0BBB81A5123750070C9DA /* GameScene.sks */,
 				04C0BBBA1A5123750070C9DA /* GameScene.swift */,
 				04C0BBBC1A5123750070C9DA /* GameViewController.swift */,
 				04C0BBBE1A5123750070C9DA /* Main.storyboard */,
 				04C0BBC11A5123760070C9DA /* Images.xcassets */,
 				04C0BBC31A5123760070C9DA /* LaunchScreen.xib */,
 				04C0BBB41A5123740070C9DA /* Supporting Files */,
+				0411D9FC1A52593500E26758 /* GameOverScene.swift */,
 			);
 			path = BouncingBall;
 			sourceTree = "<group>";
@@ -198,9 +225,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0411D9FF1A52768000E26758 /* bubblepop.mp3 in Resources */,
+				0411D9F91A52327600E26758 /* IronDagger_SK.png in Resources */,
 				04C0BBC51A5123760070C9DA /* LaunchScreen.xib in Resources */,
+				04C0BBDB1A512FE60070C9DA /* Pokeball.png in Resources */,
 				04C0BBC21A5123760070C9DA /* Images.xcassets in Resources */,
-				04C0BBB91A5123750070C9DA /* GameScene.sks in Resources */,
+				048527B71AB60AF8006096C6 /* ok_button.png in Resources */,
+				0411DA031A52800D00E26758 /* Background theme.mp3 in Resources */,
 				04C0BBC01A5123750070C9DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +252,7 @@
 			files = (
 				04C0BBBB1A5123750070C9DA /* GameScene.swift in Sources */,
 				04C0BBBD1A5123750070C9DA /* GameViewController.swift in Sources */,
+				0411D9FD1A52593500E26758 /* GameOverScene.swift in Sources */,
 				04C0BBB71A5123740070C9DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +445,7 @@
 				04C0BBD61A5123760070C9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C0BBD71A5123760070C9DA /* Build configuration list for PBXNativeTarget "BouncingBallTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +454,7 @@
 				04C0BBD91A5123760070C9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
