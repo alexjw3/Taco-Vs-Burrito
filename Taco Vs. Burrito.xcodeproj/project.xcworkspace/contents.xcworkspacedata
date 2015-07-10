@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BouncingBall.xcodeproj">
+      location = "self:/Users/Alex_Wang/Desktop/BouncingBall/Taco Vs. Burrito.xcodeproj">
    </FileRef>
 </Workspace>
